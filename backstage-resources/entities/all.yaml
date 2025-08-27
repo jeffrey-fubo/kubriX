@@ -23,6 +23,17 @@ spec:
   memberOf: [kubrix]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jeffrey-fubo
+spec:
+  profile:
+    displayName: jeffrey-fubo
+    email: jtremblay@fubo.tv
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+  memberOf: [kubrix]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: kubrix
